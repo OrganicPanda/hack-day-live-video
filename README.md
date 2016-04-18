@@ -2,8 +2,8 @@
 A simple *hack* to try to get live video in to an HTML email.
 
 <p align="center">
-  <img src="https://raw.github.com/OrganicPanda/hack-day-live-video/hack-day.jpg" alt="Hack Day Logo" />
-  <img src="https://raw.github.com/OrganicPanda/hack-day-live-video/last-min.gif" alt="Sample of produced GIF" />
+  <img src="https://raw.githubusercontent.com/OrganicPanda/hack-day-live-video/master/hack-day.jpg" alt="Hack Day Logo" width="300" />
+  <img src="https://raw.githubusercontent.com/OrganicPanda/hack-day-live-video/master/last-min.gif" alt="Sample of produced GIF" />
 </p>
 
 We initially tried the never-ending-gif idea from https://github.com/jbochi/gifstreaming but even with the correct version of ffmpeg it never actually displayed anything in the browser. Although everything in the terminal/devtools/filesystem looked exactly as expected we only saw a blank page.
