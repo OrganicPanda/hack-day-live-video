@@ -5,7 +5,8 @@ var fs = require('fs')
 fs.watch('input', function(event, filename) {
   // Async is for chumps ...
   if (busy) return;
-
+  busy = true;
+  
   console.log('Snapshot!');
 
   // Delete everything older than a minute
